@@ -1,0 +1,240 @@
+
+header{
+	width: 1899px;
+	height: 100px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+div.logo{
+	position: absolute;
+	top: 30px;
+	left: 78px;
+}
+div.logo img{
+	display: inline-block;
+	width: 160px;
+	height: 60px;
+}
+div.navigation{
+	width: 800px;
+	height: 42px;
+	margin: 0px auto;
+	margin-top: 30px;
+	position: relative;
+}
+div.navigation-menu{
+	display: flex;
+	justify-content: space-between;
+}
+div.one{
+	width: 200px;
+	text-align: center;
+	line-height: 40px;
+	color: #aaaaaa;
+	font-size: 18px;
+	cursor: pointer;
+}
+div.one:hover{
+	font-size: 25px;
+}
+hr{
+	width: 120px;
+	border: 1px solid #20A0FF;
+	position: absolute;
+}
+div.login{
+	position: absolute;
+	right: 98px;
+	top: 30px;
+	width: 200px;
+	height: 100px;
+}
+div.one-in span{
+	color: #666;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+div.two-in{
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+}
+div.two-in img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	vertical-align: top;
+}
+#header{
+	position: absolute;
+	top: 15px;
+	left: 4px;
+	width: 45px;
+	height: 20px;
+	opacity: 0;
+}
+div.two-in span.imgHead{
+	position: absolute;
+	top: 15px;
+	width: 60px;
+	height: 20px;
+	font-size: 8px;
+	line-height: 15px;
+	color: rgba(0,0,0,0);
+	font-weight: bold;
+}
+div.two-in .p{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	top: 1px;
+	border-radius: 50%;
+	display: none;
+}
+
+span.img-span{
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+div.two-in>span{
+	color: gray;
+}
+div.two-in>a{
+	color: gray;
+	cursor: pointer;
+	margin-left: 20px;
+}
+div.two-in>a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+/*登录区域*/
+.hint{
+	width: 160px;
+	height: 160px;
+	position: fixed;
+	right: 0px;
+	bottom: 400px;
+	z-index: 5000;
+}
+.hint>img{
+	width: 160px;
+	height: 160px;
+	margin-left: 50px;
+}
+
+.model{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+    z-index: 100;
+    display: none;
+}
+.user-area{
+	z-index: 101;
+	position: fixed;
+	left: -480px;
+	top: 0px;
+	width: 480px;
+	height: 100%;
+	background: white;
+}
+.user-area>div{
+	width: 400px;
+	height: 440px;
+	border: 4px solid gray;
+	border-radius: 4px;
+	position: absolute;
+	top: 180px;
+	left: 50px;
+}
+.user-status{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #8B864E;
+	width: 100px;
+	height: 20px;
+	margin: 20px auto;
+}
+.login-interface{
+	margin: 0 auto;
+}
+.interface{
+	width: 400px;
+	height: 200px;
+	border: 1px solid rgba(0,0,0,0);
+}
+.interface>div{
+	width: 360px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	border: 1px solid gray;
+	line-height: 50px;
+}
+.interface>div>img{
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+}
+.interface>div>input{
+	width: 300px;
+	height: 50px;
+	border: none;
+	outline: none;
+	color: #808080;
+	font-size: 20px;
+	text-indent: 10px;
+}
+.login-button{
+	width: 360px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.login-button>a{
+	width: 80px;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #808080;
+	font-weight: bold;
+	cursor: pointer;
+}
+.repead{
+	display: block;
+	color: #808080;
+	cursor: pointer;
+	margin: 10px 20px;
+}
+.repead:hover{
+	text-decoration: underline;
+}
+.register{
+	display: block;
+	color: #808080;
+	margin: 10px 20px;
+}
+.register a{
+	cursor: pointer;
+}
+.register>a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+{
+	"register-form":"注册界面",
+	"change-password":"修改密码",
+
+
+	"username-cannot-less-3-or-greater-11":"用户名不能小于3位或大于11位！",
+	"password-cannot-less-6-or-more-18":"密码不能小于6位或大于18位！",
+	"username-cannot-blank":"用户名不能存在空白符！",
+	"password-cannot-blank-or-Chinese":"密码不能存在空白符或者中文字符！",
+	"passwords-not-match":"输入的两次密码不一致！",
+
+
+
+	"modify-successfully":"修改成功!",
+	"user-not-exist":"用户不存在!",
+	"registered-successfully":"注册成功!",
+	"user-existed":"用户已存在!",
+	"username-cannot-empty":"用户名不能为空！",
+	"password-cannot-empty":"密码不能为空！",
+	"login-successfully":"登录成功!",
+	"wrong-password":"密码错误!",
+	"user-not-login":"用户未登录"
+}

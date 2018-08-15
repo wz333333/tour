@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1899px;
+	margin: 0 auto;/*解决了浏览器之间分辨率不统一的问题*/
+	background: #FFFFF0;
+	position: relative;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+span{
+	display: inline-block;
+}
+img{
+	display: inline-block;
+	vertical-align: top;
+}

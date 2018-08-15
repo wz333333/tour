@@ -1,0 +1,142 @@
+div.figures{
+	clear: both;
+	width: 1899px;
+	height: 480px;
+	background-image: url(../images/header.jpg);
+	background-size: 100% 100%;
+	display: inline-block;
+	position: relative;
+}
+div.figures>div:first-child{
+	background: rgba(0,0,0,0.3);
+}
+div.figures>div{
+	width: 1899px;
+	height: 480px;
+	position: absolute;
+	top: 0px;
+}
+div.figures>div>ul{
+	display: block;
+	margin: 0 auto;
+	width: 784px;
+	text-align: center;
+	margin-top: 60px;
+}
+div.figures li{
+	display: block;
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+}
+div.text-block{
+	width: 1899px;
+	height: 1520px;
+	display: inline-block;
+	background-color: #e8f7fe;
+}
+ul.block{
+	width: 1764px;
+	height: 1350px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	font-family: "黑体";
+	color: white;
+}
+ul.block>li{
+	float: left;
+	width: 335px;
+	height: 1350px;
+}
+ul.block>li>ul>li{
+	width: 335px;
+	vertical-align: bottom;
+}
+ul.block img{
+	width: 100%;
+	height: 100%;
+}
+li.text-one{
+	height: 100px;
+	margin-top: 10px;
+	font-size: 22px;
+}
+li.text-one>p{
+	padding: 18px;
+	text-align: center;
+}
+li.image-two{
+	height: 600px;
+}
+li.text-two{
+	height: 130px;
+}
+li.text-two>p{
+	padding: 18px;
+}
+li.row{
+	height: 100px;
+}
+li.one{
+	height: 240px;
+}
+li.two{
+	height: 270px;
+}
+li.three{
+	height: 300px;
+}
+li.four{
+	height: 330px;
+}
+li.five{
+	height: 1170px;
+}
+li.line-one{
+	background: #00cacc;
+}
+li.line-two{
+	background: #6dbb48;
+}
+li.line-three{
+	background: #9cdaf5;
+}
+li.line-four{
+	background: #846edb;
+}
+li.line-five{
+	background: #3461ee;
+}
+footer{
+	width: 100%;
+	background: #333;
+	border-top: 1px solid #aaa;
+}
+.connections{
+	margin-top: 20px;
+	height: 40px;
+}
+.connections ul{
+	display: flex;
+	width: 920px;
+	font-size: 13px;
+	margin: 0 auto;
+	color: #fff;
+}
+.connections li:nth-child(13){
+	margin-left: 15px;
+	color: #aaa;
+}
+.connections img{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.connections a{
+	color: #fff;
+}
+.connections a:hover{
+	text-decoration: underline;
+}

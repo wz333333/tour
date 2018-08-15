@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留下一点不一样的空白</title>
+</head>
+<body>
+	<div  id="app">
+	<header>
+		<div class="logo"><span><img src='./images/login.png'></span></div>
+		<div class="navigation">
+			<div class="navigation-menu">
+				<div class="one" ><router-link to="/" m='1' class="homepage">人生旅途</router-link></div>
+				<div class="one" id="two"><router-link to="/scenic" m='2' class="scenic">花花世界</router-link></div>
+				<div class="one" id="three"><router-link to="/concourse" m='3' class="concourse">驴友大厅</router-link></div>
+				<div class="one" id="four"><router-link to="/userinfo" m='4'class="userinfo">信息管理</router-link></div>
+			</div>
+			<hr class="hr">
+		</div>
+		<div class="login">
+			<div v-if="status" class="one-in"><span @click="register">注册</span><span @click="login">登录</span></div>
+			<div class="two-in" v-if="loginStatus">
+				<span class="img-span" @mouseenter="en" @mouseleave="out"><img v-bind:src="userData.imgSrc"><span class="p"></span><span class="imgHead">更改头像</span><input type="file" @change='head' name id="header"></span><span id="user">{{userData.name}}</span><a @click="cancel" class="cancel">注销</a>
+			</div>
+		</div>
+		<div>
+			<div class="status" v-if="status">
+				<div class="hint" plain @mouseenter="enter" @mouseleave="leave" @click='login'><img src="./images/login/unregistered-status.png" class="login-img"></div>
+			</div>
+			<div class="login-area">
+				<div class="model"></div>
+				<div class="user-area">
+					<div>
+						<div class="user-status">{{title}}</div>
+						<form class="interface">
+							<div class="in">
+								<img src="./images/login/user_head.png">
+								<input class="login-name" type="text" class="W_input " maxlength="8" minlength="3" name="userName" placeholder="请输入用户名" v-model="formData.name">
+							</div>
+							<div class="in">
+								<img src="./images/login/user_passwaord.png">
+								<input class="login-password" type="password" class="W_input " maxlength="18" minlength="6" name="password1" placeholder="请输入密码" v-model="formData.password1">
+							</div>
+							<div v-if="see" class="in">
+								<img src="./images/login/user_confirm.png">
+								<input class="login-password" type="password" class="W_input " maxlength="18" minlength="6" name="password2" placeholder="请再次确认你的密码"  v-model="formData.password2">
+							</div>
+						</form>
+						<div class="login-button">
+							<a @click="submit" id="sure">确定</a>
+							<a @click="close">取消</a>
+						</div>
+						<div class="other">
+							<a class="repead" @click="repead">忘记密码！</a>
+							<span class="register">没有帐号？<a @click="register">点击注册！</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="app"><router-view></router-view></div>
+	</div>
+</body>
+</html>

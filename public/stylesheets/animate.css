@@ -1,0 +1,140 @@
+ 
+
+ @keyframes one{
+	0%{
+		transform: translate3d(-300px,0,-300px) rotateX(0deg) rotateY(60deg);
+		z-index: 1;
+	}
+	100%{
+		transform: translate3d(300px,0,-300px) rotateX(0deg) rotateY(-60deg);
+		z-index: 1;
+	}
+ }
+
+ @keyframes two{
+	0%{
+		transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(00deg);
+		z-index: 3;
+	}
+	100%{
+		transform: translate3d(-300px,0,-300px) rotateX(0deg) rotateY(60deg);
+		z-index: 1;
+	}
+ }
+ @keyframes three{
+	0%{
+		transform: translate3d(300px,0,-300px) rotateX(0deg) rotateY(-60deg);
+		z-index: 1;
+	}
+	100%{
+		transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(00deg);
+		z-index: 3;
+	}
+ }
+
+
+  @keyframes four{
+	0%{
+		transform: translate3d(-300px,0,-300px) rotateX(0deg) rotateY(60deg);
+		z-index: 1;
+	}
+	100%{
+		transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(00deg);
+		z-index: 3;
+	}
+ }
+
+ @keyframes five{
+	0%{
+		transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(00deg);
+		z-index: 3;
+	}
+	100%{
+		transform: translate3d(300px,0,-300px) rotateX(0deg) rotateY(-60deg);
+		z-index: 1;
+	}
+ }
+ @keyframes six{
+	0%{
+		transform: translate3d(300px,0,-300px) rotateX(0deg) rotateY(-60deg);
+		z-index: 1;
+	}
+	100%{
+		transform: translate3d(-300px,0,-300px) rotateX(0deg) rotateY(60deg);
+		z-index: 1;
+	}
+ }
+
+ @keyframes flipOutYtest {
+  from {
+    transform:rotate3d(0, 1, 0, 0deg);
+    opacity: 1;
+  }
+
+  40% {
+    transform:rotate3d(0, 1, 0, 60deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform:rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+
+  to {
+    transform:rotate3d(0, 1, 0, 180deg);
+    opacity: 0;
+  }
+}
+
+.test1{
+  animation: flipOutYtest 1s linear;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes flipInYtest {
+  from {
+    transform: rotate3d(0, 1, 0, -180deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: rotate3d(0, 1, 0, -90deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: rotate3d(0, 1, 0, -60deg);
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.test2{
+  animation: flipInYtest 1s linear;
+  animation-fill-mode: forwards;
+}
+
+
+/*关闭框旋转动画*/
+
+@keyframes close{
+	from{
+		transform: rotate(0deg);
+		perspective:100px;
+	}
+
+	to{
+		transform: rotate(720deg);
+		perspective:100px;
+	}
+}
+
+.close-box-begin{
+  animation: close 0.5s linear;
+  animation-fill-mode: forwards;
+}

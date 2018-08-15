@@ -1,0 +1,171 @@
+.section{
+	width: 100%;
+	float: left;
+}
+
+/*搜索框*/
+section .search-box{
+	width: 800px;
+	margin: 0 auto;
+}
+.el-select .el-input {
+	width: 100px;
+}
+.el-select{
+	line-height: 60px;
+}
+.el-input__inner{
+	height: 60px;
+}
+
+/*筛选框*/
+.filter-box{
+	width: 1200px;
+	border: 2px solid gray;
+	margin: 20px auto;
+}
+.classification{
+	width: 100%;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.hr1{
+	width: 1200px;
+	border-color: gray;
+}
+.classification>span{
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+}
+.label{
+	color: #97a8be;
+	font-size: 20px;
+	height: 50px;
+}
+.label>span{
+	padding: 0px 10px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.select{
+	background: gray;
+}
+
+/*景区展示区域*/
+.scenic-area{
+	width: 1200px;
+	border: 2px solid gray;
+	margin: 20px auto;
+}
+.scenic-area>div{
+	width: 1200px;
+	height: 268px;
+	position: relative;
+}
+.miss-area{
+	background: white;
+}
+.miss{
+	width: 600px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 34px;
+}
+.miss>img{
+	width: 200px;
+	height: 200px;
+}
+.miss>span{
+	font-size: 30px;
+	color: gray;
+	position: absolute;
+	top: 100px;
+	right: 480px;
+}
+.img-area{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	bottom: 30px;
+}
+.img-area>img{
+	display: block;
+	width: 300px;
+	height: 200px;
+	border: 4px solid gray;
+}
+.text-area{
+	width: 760px;
+	height: 206px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	padding: 0px 20px;
+	border: 2px solid gray;
+}
+.more{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	top: -22px;
+	right: 0px;
+}
+.more>a{
+	text-decoration: underline; 
+}
+.more-information{
+	color: gray;
+}
+.more>a:hover{
+	color: blue;
+}
+.text{
+	margin-top: 20px;
+	height: 142px;
+}
+.scenic-title{
+	color: gray;
+	font-size: 26px;
+}
+.right-bottom{
+	width: 260px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: #CDBA96;
+}
+.scenic-label{
+	width: 160px;
+	height: 30px;
+	float: left;
+}
+.scenic-label>span{
+	font-size: 20px;
+	color: #5ba8d4;
+}
+.right-bottom>span{
+	display: block;
+	float: left;
+	height: 30px;
+	width: 60px;
+	line-height: 30px;
+}
+.praise{
+	width: 30px;
+	height: 30px;
+	float: left;
+	display: block;
+}
+.hr2{
+	width: 1200px;
+	border-color: gray;
+}
